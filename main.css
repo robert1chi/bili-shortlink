@@ -1,0 +1,156 @@
+html{
+    background-image: linear-gradient(to bottom right, #FFD3A5, #FD6585);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow:hidden;
+    font-size: 100%;
+}
+.title{
+	padding: 6em 190px 1em;
+	letter-spacing: -1px;
+	text-align: center;
+	margin: auto;
+    width:100%;
+    
+}
+.title .label{
+    color: #ffffff;
+	font-weight: 600;
+	font-size: 2em;
+	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+	text-align: center;
+	display: block;
+}
+.back{
+    background-color:rgba(255,255,255,0.7);
+    height: 220px;
+    width: 60%;
+    position: absolute;
+    padding:20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.short-input #change-input{
+    position: relative;
+    width:calc(100% - 120px);
+    left:0;
+}
+.short-input #change{
+    margin-left:10px;
+    width: 100px;
+}
+.short-input .label{
+    color: #000;
+}
+.fallback{
+    margin: 0 auto;
+}
+.fallback #change-after{
+    position: relative;
+    width:calc(100% - 120px);
+    left:0;
+}
+.fallback #copy{
+    margin-left:10px;
+    width:100px;
+}
+.fallback .label{
+    color: #000;
+}
+footer {
+    clear: both;
+    display: block;
+    text-align: center;	
+    margin: 0px auto;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+.aff img{
+    display: block; 
+    margin: 0px auto;
+}
+@media screen and (max-width: 1024px) {
+    .back {
+        background-color: rgba(255, 255, 255, 0.7);
+        height: 400px;
+        width: 80%;
+        position: absolute;
+        padding: 20px;
+        border-radius: 30px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        overflow:hidden;
+    }
+    .title .label{
+    color: #ffffff;
+	font-weight: 600;
+	font-size: 3.5em;
+	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+	text-align: center;
+	display: block;
+    }
+    .short-input{
+        position: relative;
+        transform: scale(2, 2);
+        margin-left: 35%;
+        margin-top: 50px;
+    }
+    .short-input label{
+        overflow: hidden;
+        width:200px;
+        margin: 0;
+    }
+    .short-input #change-input{
+        position: relative;
+        width: calc(74% - 120px);
+
+    }
+    .short-input #change{
+        margin-left:10px;
+        width: 100px;
+    }
+    .fallback{
+        transform: scale(2, 2);
+        margin-left: 35%;
+        margin-top:80px;
+    }
+    .fallback #change-after{
+        position: relative;
+        width: calc(74% - 120px);
+        left:0;
+    }
+    .fallback label{
+        overflow: hidden;
+        width:200px;
+        margin: 0;
+
+    }
+    .aff img{
+    display: block; 
+    margin: 0 auto;
+    transform: scale(2, 2);
+    }
+    footer {
+    bottom: 200px;
+    width: 100%;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    html{
+        background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+    }
+    .back{
+    background-color:rgba(0,0,0,0.7);
+    }
+}
